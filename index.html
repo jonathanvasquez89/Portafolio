@@ -1,0 +1,451 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Jonathan Vasquez">
+  <meta name="description" content="portafolio de Desarrollo Web">
+  <meta name="keywords" content="HTML, CSS, Javascript, Bootstrap, Reatc">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Jonathan Vásquez | Desarollo Web Front-End</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- Icon-Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-md  bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img class="logo-nav" src="./imagenes/logo.jpg" alt="logo del nav">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#testimonio">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cv">CV</a>
+            </li>
+          </ul>
+        </div>
+        <!--  Modo Dark - btn -->
+        <div>
+          <label for="modeDark" id="labelModeDark"><i class="bi bi-brightness-low-fill"></i></label>
+          <input type="checkbox" id="modeDark">
+        </div>
+      </div>
+    </nav>
+    <!-- Seccion HERO -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal ">
+        <img class="hero-imagen-desarrollador"
+          src="./imagenes/foto-perfil.jpg" alt="Foto de Perfil">
+        <h1>Hola, Soy Jonathan Vasquez</h1>
+        <h2>Desarollador Web</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="./imagenes/undraw_programming_re_kg9v.svg"
+          alt="Monitor, Laptop y logos de HTML, CSS, JavaScript, Bootstrap y Reatc">
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-- Sobre Mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Jonathan Vásquez</h2>
+        <p class="seccion-texto"> 
+          Hola, soy <strong>Jonathan Vásquez</strong>  y me considero muy apasionado por las cosas que hago. Cree este <strong>Portafolio</strong> para compartir mis proyectos y mis experiencias que voy obteniendo en este maravilloso camino. unos de mis objetivos es ayudar a personas a crear sus sueños. 
+          <br>
+          <br>
+          soy amante de la tecnología y a su avance. comencé en este Mundo tecnológico desde mi adolescencia y me anime a ser estudio en tiempo de pandemia en el 2020. desde entonces sigo estudiando y preparándome para llegar a ser un buen <strong>Desarrollador Web.</strong> </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center text-bg-secondary">
+        <div class="row">
+          <!-- desarrolo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop laptop"></i>
+            <h4 class="experiencia-titulo">Tecnologias</h4>
+            <p>He adquirído herramientas para crear sitios web atractivos utilizando estos lenguajes</p>
+            <div class="badges-contenedor">
+              <span class="badge-tecn"><i class="bi bi-filetype-html"></i></span>
+              <span class="badge-tecn "><i class="bi bi-filetype-css"></i></span>
+              <span class="badge-tecn "><i class="bi bi-filetype-js"></i></span>
+              <span class="badge-tecn "><i class="bi bi-filetype-java"></i></span>
+              <span class="badge-tecn "><i class="bi bi-bootstrap"></i></span>
+              <span class="badge-tecn "><i class="bi bi-git"></i></span>
+              <span class="badge-tecn "><i class="bi bi-github"></i></span>
+            </div>
+          </div>
+          <!-- Articulo -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop laptop"></i>
+            <h4 class="experiencia-titulo">Proyectos</h4>
+            <p> Por el momento solo he creado proyectos escolares, mejorando así mis habilidades como Desarrollador Web
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge">Recetas</span>
+              <span class="badge">Paginas Web</span>
+              <span class="badge">Portafolio</span>
+              <span class="badge">Otros</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop laptop"></i>
+            <h4 class="experiencia-titulo">Estudiante</h4>
+            <p>He realizado Distintos Cursos las cuales me han ayudado a crecer en mis conocimientos.</p>
+            <div class="badges-contenedor">
+              <span class="badge">FreCodeCamp</span>
+              <span class="badge">UTN</span>
+              <span class="badge">Potrero Digital</span>
+              <span class="badge">Open Bootcamp</span>
+              <span class="badge">Google Active</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- BARRA - PROGRESO -->
+    <div class="container-skills">
+      <h2 class="seccion-titulo text-center">Skills</h2>
+      <!-- Skills HTML -->
+      <h5 class="seccion-decripcion text-center">HTML</h5>
+      <div class="skills">
+        <div class="container-bar">
+          <img class="img-skills" src="imagenes/Img_HTML.png" alt="img-html">
+          <div class="bar">
+            <div id="bar-html" class="progress-bar"></div>
+          </div>
+          <span class="seccion-decripcion">90%</span>
+        </div>
+      </div>
+        <!-- Skills CSS -->
+      <h5 class="seccion-decripcion text-center">CSSL</h5>
+      <div class="skills">
+        <div class="container-bar">
+          <img class="img-skills" src="imagenes/Img_CSS.png" alt="img-html">
+          <div class="bar">
+            <div id="bar-css" class="progress-bar"></div>
+          </div>
+          <span class="seccion-decripcion">75%</span>
+        </div>
+      </div>
+        <!-- Skills Js -->
+      <h5 class="seccion-decripcion text-center">JavaScript</h5>
+      <div class="skills">
+        <div class="container-bar">
+          <img class="img-skills" src="imagenes/Img_JS.jpg" alt="img-CSS">
+          <div class="bar">
+            <div id="bar-js" class="progress-bar"></div>
+          </div>
+          <span class="seccion-decripcion">63%</span>
+        </div>
+      </div>
+        <!-- Skills Bootstrap -->
+      <h5 class="seccion-decripcion text-center">Bootstrap 5</h5>
+      <div class="skills">
+        <div class="container-bar">
+          <img class="img-skills" src="imagenes/Img_BOTS.png" alt="img-Bootstrap">
+          <div class="bar">
+            <div id="bar-boost" class="progress-bar"></div>
+          </div>
+          <span class="seccion-decripcion">85%</span>
+        </div>
+      </div>
+        <!-- Skills Java -->
+        <h5 class="seccion-decripcion text-center">Java</h5>
+      <div class="skills">
+        <div class="container-bar">
+          <img class="img-skills" src="imagenes/Img_JAVA.png" alt="img-Java">
+          <div class="bar">
+            <div id="bar-java" class="progress-bar"></div>
+          </div>
+          <span class="seccion-decripcion">40%</span>
+        </div>
+      </div>
+      <!-- Skills Git -->
+      <h5 class="seccion-decripcion text-center">Git</h5>
+      <div class="skills">
+        <div class="container-bar">
+          <img class="img-skills" src="imagenes/img_git.png" alt="img-GIT">
+          <div class="bar">
+            <div id="bar-git" class="progress-bar"></div>
+          </div>
+          <span class="seccion-decripcion">60%</span>
+        </div>
+      </div>
+    </div>
+
+     <!-- Curriculum -->
+     <div id="cv" class="text-center flex-wrap d-flex cv_conatainer justify-content-center align-items-center gap-3">
+        <div class="flex-colum">
+          <h3 class="seccion-titulo">Descargar Curriculum</h3>
+          <button class="boton-cv">
+            <a class="link-cv" href="imagenes/Jonathan_Vasquez_Currículum.pdf" download="Jonathan-Vasquez_CV"><i class="bi bi-arrow-down-circle-fill icon-cv gap-2"></i>Descarga CV</a>
+          </button>
+        </div>
+        <div class="img-conatiner img-fluid">
+          <img class="img-cv" src="imagenes/undraw_online_cv_re_gn0a.svg" alt="img-cv">
+        </div>
+     </div>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Proyectos y Retos</h2>
+      <h3 class="seccion-decripcion">Estos son algunos proyectos y Retos que he creado recientemente.</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 ">
+            <!-- cuando coloque mas proyectos, agg ==> col-lg-4 -->
+            <div class="proyecto">
+              <img src="./imagenes/proyecto1.jpg" alt="proyecto 1">
+              <div class="overlay">
+                <p>Proyecto - Receta Venezolana</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jonathanvasquez89/front-end_PD.git" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://jonathanvasquez89.github.io/front-end_PD/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 ">
+            <!-- cuando coloque mas proyectos, agg ==> col-lg-4 -->
+            <div class="proyecto">
+              <img src="./imagenes/proyecto2.jpg" alt="">
+              <div class="overlay">
+                <p>Proyecto - Tienda de Ropa</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jonathanvasquez89/BA_multiplica2.0.git" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://jonathanvasquez89.github.io/BA_multiplica2.0/" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Retos Mentor -->
+          <div class="col-12 col-md-6 ">
+            <!-- cuando coloque mas proyectos, agg ==> col-lg-4 -->
+            <div class="proyecto">
+              <img src="./imagenes/proyecto2.jpg" alt="">
+              <div class="overlay">
+                <p>Retos - Mentor FrontEnd</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/jonathanvasquez89/Mentor_FrontEnd.git" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info ">
+        Var mas Proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a> -->
+    </section>
+
+    <!-- Certificados -->
+    <section class="certificados justify-content-start seccion-clara">
+      <h2 class="seccion-titulo texto-negro">Certificado</h2>
+      <div class="card">
+        <div class="card-header">
+          <h5>Mas Reciente</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <a class="link-certificado" href="./imagenes/Certificado_Programación_Front_End-Jonathan_Vasquez.pdf" target="_blank"
+            rel="noopener noreferrer">
+            <li class="list-group-item">Certificado de Programación Front End - Potrero Digital</li>
+          </a>
+          <a class="link-certificado" href="./imagenes/Certificado_Habilidades_Socio_Emocionales-Jonathan Vasquez.pdf" target="_blank"
+            rel="noopener noreferrer">
+            <li class="list-group-item">Certificado Habilidades Socio Emocionales - Potrero Digital</li>
+          </a>
+          <a class="link-certificado" href="./imagenes/Certificado_desarrollo_web_google.pdf" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Certificado Desarollodor Web - Google Active</li>
+          </a>
+          <a class="link-certificado" href="./imagenes/Programación-Certificado_BA_Multiplica.pdf" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Certificado Front-End - UTN</li>
+          </a>
+          <a class="link-certificado" href="./imagenes/Certificado_ConceptoProgramacion.pdf" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Certificado Concepto de la Programacion - OpenBoostcamp</li>
+          </a>
+          <a class="link-certificado" href="./imagenes/Introduccion_a_la_Programacion.pdf" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Certificado Introduccion a la Programacion - OpenBoostcamp</li>
+          </a>
+          <a class="link-certificado" href="./imagenes/Protrero-Front-End.pdf" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Certificado - FrontEnd - Potrero Digital</li>
+          </a>
+          <a class="link-certificado" href="./imagenes/certificate-ticmas.pdf" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Certificado - Argentina Programa 4.0 - Ticmas</li>
+          </a>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Testimonio -->
+  <!--  <section id="testimonio" class="testimonio seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion ">Algunos testimonio de mis Clientes</h3>
+
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.jpg" alt="carusel-clientes">
+              <p class="testimonio-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa amet repellat
+                cum saepe autem in quasi illo doloremque.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Vero</p>
+                <p class="cargo">Diseñadora de Moda</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.jpg" alt="carusel-clientes">
+              <p class="testimonio-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa amet repellat
+                cum saepe autem in quasi illo doloremqu.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Giro</p>
+                <p class="cargo">Gerente de proyectos en Desarolo-Web</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.jpg" alt="carusel-clientes">
+              <p class="testimonio-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa amet repellat
+                cum saepe autem in quasi illo doloremque.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Monica</p>
+                <p class="cargo">Empresaria - Compañias Textil</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev btn-carrusel" type="button" data-bs-target="#testimonios-carrusel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next btn-carrusel" type="button" data-bs-target="#testimonios-carrusel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section> -->
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="contaiener text-center rectanguo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contactame para iniciar tu proyecto de desarrollo web y haré que tu vision se vuleva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:jonat89.dev@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- pie de pagina -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-icono" src="imagenes/logo.jpg" alt="logo del portafoli">
+    <p class="footer-texto text-center">Aprendo y creo todo los dias, <br> Creemos un Proyectos Juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://www.facebook.com/jonat.vas" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://instagram.com/jonat.dev?igshid=ZDdkNTZiNTM=" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/jonathan-vasquez-dev/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://api.whatsapp.com/send/?phone=%2B541155283823&text&type=phone_number&app_absent=0" target="_blank"
+        rel="noopener noreferrer">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://www.tiktok.com/@jonat.dev" target="_blank"
+        rel="noopener noreferrer">
+        <i class="bi bi-tiktok"></i>
+      </a>
+    </div>
+    <div class="derecho-de-autor">Creado por Jonathan Vasquez (2023) &#169;</div>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="./js/index.js"></script>
+
+  <!-- JavaScript Bundle with Popper Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
